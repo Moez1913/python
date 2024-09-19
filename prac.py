@@ -14,3 +14,4 @@
 
 #Generate a list of Numbers 0 to N
 # Sum of list elements:
+#find the avarage of a list:

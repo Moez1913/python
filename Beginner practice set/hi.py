@@ -71,11 +71,27 @@ print(fac)'''
 #Generate a list of Numbers 0 to N
 
 '''n=int(input("Enter the Number"))
-numbers=list(range(0,n+1))
+numbers=list(range(1,n+1))
 print(numbers)'''
 
 # Sum of list elements:
-n=int(input("Enter the Number"))
+'''n=int(input("Enter the Number"))
 numbers=list(range(0,n+1))
 total=sum(numbers)
-print(total)
+print(total)'''
+
+#find the avarage of a list:
+'''n=int(input("Enter the Number"))
+numbers=list(range(1,n+1))
+avrg= sum(numbers)/len(numbers)
+print(avrg)'''
+
+#find minimum and maximum in a list;
+
+n1=int(input("Enter the Number"))
+n2=int(input("Enter the Number"))
+l1=list(range(1,n1+1))
+l2=list(range(1,n2+1))
+print(min(l1))
+
+
