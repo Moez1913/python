@@ -61,5 +61,15 @@ if num>1:
 else:
     print(f'{num} is not prime')'''
          
+#Factorial of a number:
+'''import math
 
+num=int(input("Enter your Number:"))
+fac=math.factorial(num)
+print(fac)'''
 
+#Generate a list of Numbers 0 to N
+
+'''n=int(input("Enter the Number"))
+numbers=list(range(0,n+1))
+print(numbers)'''
