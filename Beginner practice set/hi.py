@@ -73,3 +73,9 @@ print(fac)'''
 '''n=int(input("Enter the Number"))
 numbers=list(range(0,n+1))
 print(numbers)'''
+
+# Sum of list elements:
+n=int(input("Enter the Number"))
+numbers=list(range(0,n+1))
+total=sum(numbers)
+print(total)
