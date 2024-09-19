@@ -50,16 +50,16 @@ print(largest)"""
 
 #check prime number
 
-num=int(input("Enter the number"))
+'''num=int(input("Enter your Number:"))
 if num>1:
-    for i in range(2,num):
-        if(num%i)==0:
-            print("Not prime")
+    for i in range(2,int(num/2)+1):
+        if(num%i==0):
+            print(f'{num} is not prime')
             break
-        else:
-            print("prime")
-         
+    else:
+        print(f'{num} is prime')    
 else:
-    print("Not prime")            
+    print(f'{num} is not prime')'''
+         
 
 
