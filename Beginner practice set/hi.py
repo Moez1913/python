@@ -88,10 +88,10 @@ print(avrg)'''
 
 #find minimum and maximum in a list;
 
-n1=int(input("Enter the Number"))
+'''n1=int(input("Enter the Number"))
 n2=int(input("Enter the Number"))
 l1=list(range(1,n1+1))
 l2=list(range(1,n2+1))
-print(min(l1))
+print(min(l1))'''
 
 
