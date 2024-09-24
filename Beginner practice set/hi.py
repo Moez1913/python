@@ -82,7 +82,7 @@ print(total)'''
 
 #find the avarage of a list:
 '''n=int(input("Enter the Number"))
-numbers=list(range(1,n+1))
+numbers=list(range(1,n+1)) 
 avrg= sum(numbers)/len(numbers)
 print(avrg)'''
 
@@ -90,8 +90,56 @@ print(avrg)'''
 
 '''n1=int(input("Enter the Number"))
 n2=int(input("Enter the Number"))
-l1=list(range(1,n1+1))
+l1=list(range(1,n1+1)) 
 l2=list(range(1,n2+1))
 print(min(l1))'''
 
+# Rverse a list:
 
+'''num=[1,2,3,4,5,6]
+rvs_num=num[::-1]
+print(rvs_num)'''
+
+
+# short a list :
+'''li=[6,4,9,3,7,2,1]
+li.sort()
+print(li)'''
+
+# chack a if a list contain a value:
+
+'''num=[1,2,3,4,5]
+v=3
+if v in num:
+    print("found")
+else:
+        print("not found")    '''
+ 
+# count occurrances of an item in list
+
+'''items=['apple','banana','apple','orange']
+count=items.count('apple')
+print(count)'''
+
+#List comprehension:
+#showing squar
+'''num=[x**2 for x in range(5)]
+print(num)'''
+
+#Dictionary creation:
+person={'name':'alic','age':25}
+'''print(person)'''
+
+# Accessing dictionary values:
+'''print(person['name'])'''
+
+# Adding a item a item to a dictionary:
+person['city']='Rajshahi'
+'''print(person)'''
+# Remove an item from dictionary:
+'''del person['age']
+print(person)'''
+
+#itareting over dictionary :
+'''for key,value in person.items():
+    print(key,value)'''
